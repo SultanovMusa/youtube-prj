@@ -1,0 +1,68 @@
+.videos {
+	.content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 1rem;
+
+		.car {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 1rem;
+			width: 24rem;
+			border-radius: 1rem;
+			padding: 2rem;
+
+			h1 {
+				color: white;
+			}
+			h1:hover {
+				transition: 1s;
+				text-shadow: 5px 5px 5px red;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			iframe {
+				height: 13rem;
+				border-radius: 2rem;
+				border: none;
+			}
+			h3 {
+				text-align: center;
+			}
+			h3:hover {
+				transition: 1s;
+				text-shadow: 5px 5px 5px red;
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			p {
+				text-align: center;
+			}
+			p:hover {
+				transition: 1s;
+				text-shadow: 5px 5px 5px rgb(77, 3, 3);
+				cursor: pointer;
+			}
+			img {
+				width: 20rem;
+				height: 10rem;
+			}
+			button {
+				width: 10rem;
+				height: 2rem;
+				margin-left: 5rem;
+				border: none;
+				border-radius: 0.8rem;
+				background: rgb(77, 3, 3);
+				cursor: pointer;
+			}
+		}
+		.car:hover {
+			transition: 1s;
+			box-shadow: 1px 5px 10px 5px red;
+			cursor: progress;
+		}
+	}
+}

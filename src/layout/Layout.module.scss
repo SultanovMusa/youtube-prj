@@ -1,0 +1,14 @@
+.layout {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	min-height: 100vh;
+
+	main {
+		margin-top: 150px;
+	}
+
+	footer {
+		margin-top: auto;
+	}
+}

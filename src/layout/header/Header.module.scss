@@ -1,0 +1,67 @@
+.header {
+	position: sticky;
+	background: transparent;
+	backdrop-filter: blur(5px);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 8rem;
+	box-shadow: 10px 10px 5px red;
+	padding: 2%;
+
+	.content {
+		padding-block: 10px;
+		display: flex;
+		justify-content: space-between;
+
+		.iconi {
+			display: flex;
+			justify-content: space-between;
+
+			.icon {
+				font-size: 2rem;
+				color: red;
+			}
+			.icons {
+				margin-top: 3px;
+				font-size: 1.3rem;
+				color: white;
+			}
+		}
+
+		.iconi:hover {
+			cursor: progress;
+		}
+
+		.inpt_btn {
+			display: flex;
+			input {
+				padding: 3%;
+				width: 30rem;
+				height: 2.5rem;
+				border-radius: 30px 0px 0px 30px;
+				border: none;
+				background: transparent;
+				cursor: progress;
+				box-shadow: 0px 0px 10px 5px rgb(99, 2, 2);
+			}
+			input:hover {
+				border: 1px solid red;
+			}
+
+			button {
+				background: transparent;
+				width: 3.5rem;
+				height: 2.5rem;
+				border-radius: 0px 30px 30px 0px;
+				border: none;
+				box-shadow: 0px 0px 10px 5px rgb(99, 2, 2);
+			}
+			button:hover {
+				border: 1px solid red;
+				cursor: pointer;
+				
+			}
+		}
+	}
+}
